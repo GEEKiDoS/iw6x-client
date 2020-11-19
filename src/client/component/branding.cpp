@@ -63,7 +63,7 @@ namespace branding
 					hudelem->flags |= 1;
 				});
 
-				localized_strings::override("LUA_MENU_MULTIPLAYER_CAPS", "IW6x: MULTIPLAYER\n");
+				localized_strings::override("LUA_MENU_MULTIPLAYER_CAPS", reinterpret_cast<const char*>(u8"矮大不溜六艾克斯\n"));
 			}
 
 			localized_strings::override("LUA_MENU_LEGAL_COPYRIGHT", "IW6x: Pre-Release by X Labs.\n");
